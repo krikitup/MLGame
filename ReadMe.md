@@ -1,7 +1,12 @@
 # Machine Learning Components in Gaming
 
 ## Overview
-This project explores the integration of Machine Learning (ML) in gaming environments, focusing on enhancing realism and responsiveness in game characters and scenarios. By leveraging ML, this project aims to handle complex systems more efficiently than traditional methods, easing coding efforts and scaling solutions effectively.
+This project explores the integration of Machine Learning (ML) in gaming environments, focusing on enhancing realism and responsiveness in-game characters and scenarios. By leveraging ML, this project aims to handle complex systems more efficiently than traditional methods, easing coding efforts and scaling solutions effectively. 
+
+
+## Motivation
+Being a Scientific Computing master's student I have been working with different machine learning from the onset of my master's, after taking the course CIS 460, Computer Graphics by Prof Adam Mally, I was more curious about Game Dev and wanted to explore it further. After my futile tries at learnign Unity, and Unreal in past, it seemed like the perfect opportunity to dive into it. I wanted to explore animation using ML, or movements for NPCs, to make it more dynamic, and system-driven. I also thought it'd be nice to implement a self-driving vehicle as I have done it before using CNNs, which are much more complicated, but has much more data to process, using a Ray-Casting in environment with reinforcement learning could solve it. 
+
 
 ## Features
 
