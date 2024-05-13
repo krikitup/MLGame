@@ -46,7 +46,7 @@ In this project, Unity ML-Agents was primarily used to enhance character animati
 
 Unity ML agents represent a powerful tool in the arsenal of game developers aiming to push the boundaries of what's possible in game AI, making games more immersive and interactive.
 
-# Project Timeline: Machine Learning Components in Gaming
+# Implementation with Time-Line: Machine Learning Components in Gaming
 
 ## Weeks 1-3: Initial Setup and Research
 - **Setting Up the Unity Environment**: Configure and prepare the Unity environment for ML-based developments. This includes installing Unity ML-Agents and setting up the necessary tools and plugins required for the project.
@@ -80,25 +80,43 @@ Unity ML agents represent a powerful tool in the arsenal of game developers aimi
 - **Project Documentation and Final Presentation**: Prepare comprehensive documentation of the project outcomes, including detailed descriptions of all systems and technologies implemented, challenges faced, successes achieved, and areas for future research. Prepare and deliver a final presentation to stakeholders to showcase the project results, emphasizing the advancements made in AI training techniques and their practical applications in game environments.
 
 
+## Achievements and Failures
 
-## Implementation
+### Achievements
 
-### Tools Used
-- **Unity ML-Agents**: Utilized for dynamic and adaptive character animations, allowing for more realistic movements than traditional animation techniques.
+- **Humanoid Stability Against Forces**: The humanoid model demonstrated the ability to walk against a range of resistive forces and successfully reach designated goals. This stability is a significant achievement, showcasing the effectiveness of the training under varying environmental conditions.
+- **Car Navigation and U-Turn Mastery**: The car agent achieved one of the most challenging manoeuvres—executing a U-turn. This capability highlights the sophisticated level of spatial awareness and decision-making instilled through the training. Moreover, the car does not halt in the absence of a clear path; instead, it dedicates time to calculate possible movements, ensuring continuous operation.
+- **Stable Car Mechanics**: Successfully created stable car mechanics that allowed the vehicle to operate under a variety of conditions and maintain good speed, contributing significantly to the realism and dynamic nature of the simulation.
+- **Efficient Task Completion**: Both the humanoid and car agents were able to complete their respective tasks effectively, with optimized speeds that contributed to an overall efficient system performance.
 
-### Techniques
-- **Reinforcement Learning**: Applied to train agents to maximize reward accumulation over time.
-- **Imitation Learning**: Combines reinforcement learning with recorded data to speed up the learning process and achieve realistic character behaviour.
+### Limitations
+
+- **Incomplete Inverse Kinematics in Humanoid**: While the implementation of inverse kinematics allowed for some control over arm movements, it failed to update leg movements adequately, resulting in a humanoid that was unstable and unable to walk properly during training sessions. This limitation highlights a critical area where the inverse kinematics integration with existing assets did not meet project expectations.
+- **Limited Arm Movement Control**: Attempts to enhance arm movement control by implementing a negative reward system for movements outside a perpendicular plane to the body did not yield significant improvements. The control was largely confined to the forearms, with minimal effects on the upper arms, indicating a need for further refinement in this aspect of the model.
+- **Robustness Issues in Autonomous Driving**: The autonomous driving system still exhibits low robustness, with frequent collisions indicating that the current model struggles with accurately predicting and reacting to obstacles. This area remains a key challenge and a focus for future improvements.
 
 ## Challenges
 
-### What Didn't Work
-- **Inverse Kinematics**: Struggled with complex joint movements.
-- **Constrained Arm Movement**: Limited to forearms, lacking impact on shoulders.
-- **Training Limitations**: Early stopping in movements due to high negative rewards and ineffective use of single raycast for movement prediction.
+### Car Navigation Challenges
+- **Early Stopping**: One of the significant challenges with the autonomous driving system was the car's tendency to stop prematurely. This behaviour often occurred in scenarios where pathfinding algorithms failed to identify viable routes forward, necessitating further refinement of the decision-making processes within the model.
+- **Difficulty with U-Turns**: Despite achieving the manoeuvre in some instances, consistently performing U-turns remained a troubling aspect. The car often struggled to execute U-turns smoothly, indicating a need for more sophisticated handling and path-planning algorithms to improve manoeuvrability in tight scenarios.
 
-### What Did Work
-- **Imitation vs. Classical Learning**: Marked improvements in learning efficiency when using imitation learning over classical methods.
+### Humanoid Movement Training
+- **Instability Against Forces**: The humanoid agent initially faced significant challenges when trained to walk against resistive forces. The model frequently fell, struggling to maintain balance and effective locomotion, which required iterative adjustments and enhancements to the training regime to achieve the desired stability and functionality.
+
+### Checkpoint System Limitations
+- **Inflexible Forward Direction**: The checkpoint system used for navigating the car had limitations in its ability to adjust the forward direction dynamically. This rigidity made aligning the car with the track more challenging, especially in complex track layouts or sudden directional changes. Improving the flexibility and responsiveness of the checkpoint system is essential for enhancing the autonomous driving capabilities of the car.
+
+### Training and Hyperparameter Tuning Challenges
+- **Model Training Difficulties**: Determining the optimal set of hyperparameters was a substantial challenge, as the model's performance varied significantly under different configurations. Frequent visualization of the model's performance under various scenarios was essential to understand the impact of each parameter adjustment.
+- **Adapting to Dynamic Environments**: The dynamic and unpredictable nature of the game environment posed significant challenges in training, requiring continuous adjustments to training strategies and model parameters.
+
+### Improvements
+- **Checkpoint Height Adjustment and Multi-Raycast Implementation**: To overcome navigation issues, the height of checkpoints was reduced, and a multi-raycast system was implemented. This setup ensured that the car model could maintain a consistent view of the environment ahead, including essential cues from behind, enhancing situational awareness and decision-making accuracy.
+- **Enhanced Environment Interaction**: By adding tags to different elements within the game environment (e.g., track, wall, checkpoint), the model was trained to process and differentiate between various types of interactions. This tagging system allowed for more nuanced responses and improved the overall performance of the AI agents.
+- **Incorporating Reverse Actions**: To improve the car's ability to handle complex manoeuvres like U-turns, training data was enhanced to include reverse actions. This addition allowed the AI to learn and execute backing up as a strategic maneuver when forward paths were blocked or non-optimal.
+- **Multiple Training Sessions with Inference Feedback**: The project utilized an iterative training approach, where multiple training sessions were conducted, and inference data from each session was analyzed to inform subsequent training phases. This method allowed for continuous improvement of the model’s accuracy and adaptability, ensuring that each iteration addressed the shortcomings identified in the previous one.
+
 
 ## Results
 
