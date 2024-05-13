@@ -5,7 +5,7 @@ This project explores the integration of Machine Learning (ML) in gaming environ
 
 
 ## Motivation
-Being a Scientific Computing master's student I have been working with different machine learning from the onset of my master's, after taking the course CIS 460, Computer Graphics by Prof Adam Mally, I was more curious about Game Dev and wanted to explore it further. After my futile tries at learning Unity, and Unreal in past, it seemed like the perfect opportunity to dive into it. I wanted to explore animation using ML, or movements for NPCs, to make it more dynamic, and system-driven. I also thought it'd be nice to implement a self-driving vehicle as I have done it before using CNNs, which uses a pretrained network and are slower, as there is very heavy computation involved. Therefore, in a controlled environment, we can simplify some of it, and instead use Ray-Casting for autonomous driving. 
+Being a Scientific Computing master's student I have been working with different machine learning from the onset of my master's, after taking the course CIS 460, Computer Graphics by Prof Adam Mally, I was more curious about Game Dev and wanted to explore it further. After my futile tries at learning Unity, and Unreal in past, it seemed like the perfect opportunity to dive into it. I wanted to explore animation using ML, or movements for NPCs, to make it more dynamic, and system-driven. I also thought it'd be nice to implement a self-driving vehicle as I have done it before using CNNs, which use a pre-trained network and are slower, as there is very heavy computation involved. Therefore, in a controlled environment, we can simplify some of it, and instead use Ray-Casting for autonomous driving. 
 
 ## Why Use Machine Learning in Gaming?
 
@@ -114,9 +114,30 @@ Unity ML agents represent a powerful tool in the arsenal of game developers aimi
 ### Improvements
 - **Checkpoint Height Adjustment and Multi-Raycast Implementation**: To overcome navigation issues, the height of checkpoints was reduced, and a multi-raycast system was implemented. This setup ensured that the car model could maintain a consistent view of the environment ahead, including essential cues from behind, enhancing situational awareness and decision-making accuracy.
 - **Enhanced Environment Interaction**: By adding tags to different elements within the game environment (e.g., track, wall, checkpoint), the model was trained to process and differentiate between various types of interactions. This tagging system allowed for more nuanced responses and improved the overall performance of the AI agents.
-- **Incorporating Reverse Actions**: To improve the car's ability to handle complex manoeuvres like U-turns, training data was enhanced to include reverse actions. This addition allowed the AI to learn and execute backing up as a strategic maneuver when forward paths were blocked or non-optimal.
+- **Incorporating Reverse Actions**: To improve the car's ability to handle complex manoeuvres like U-turns, training data was enhanced to include reverse actions. This addition allowed the AI to learn and execute backing up as a strategic manoeuvre when forward paths were blocked or non-optimal.
 - **Multiple Training Sessions with Inference Feedback**: The project utilized an iterative training approach, where multiple training sessions were conducted, and inference data from each session was analyzed to inform subsequent training phases. This method allowed for continuous improvement of the model’s accuracy and adaptability, ensuring that each iteration addressed the shortcomings identified in the previous one.
 
+## Imitation Learning in Gaming
+
+### Why Imitation Learning?
+Imitation learning was chosen for this project due to its effectiveness in quickly ramping up the competency of machine learning models in complex environments. Unlike traditional reinforcement learning which requires models to learn from scratch through trial and error, imitation learning speeds up the process by teaching models to mimic successful behaviours from pre-recorded data. This approach is particularly advantageous in gaming, where desired actions and outcomes can be precisely demonstrated through expert gameplay, thus providing a clear path for the AI to learn.
+
+Imitation learning is crucial in environments where obtaining rewards can be sparse or delayed, as it helps in establishing a baseline behaviour that the model can refine through further training. It ensures that the model starts with a fundamental understanding of the task, significantly reducing the time and resources spent on training.
+
+### Achievements with Imitation Learning
+In this project, imitation learning proved to be a substantial asset:
+- **Rapid Learning**: The humanoid and car agents learned tasks much faster compared to models trained from scratch. This was evident in their quick adaptation to walking against resistive forces and handling complex driving manoeuvres like U-turns.
+- **Stability and Performance**: Models trained with imitation learning exhibited increased stability and performance from the outset, handling complex sequences of actions with greater ease and confidence.
+
+### Further Improvements
+While imitation learning has significantly benefitted the project, there are several areas where the approach could be enhanced further:
+
+- **Integration with Reinforcement Learning**: Combining imitation learning with reinforcement learning could yield better results. After the initial phase of imitation, reinforcement learning can take over to refine the behaviours based on specific rewards and penalties, tailoring the AI’s responses to the nuances of the game environment.
+- **Increased Dataset Variety**: Expanding the variety of scenarios and behaviours in the training dataset can help improve the model's ability to generalize across different situations. Including more varied and challenging scenarios in the imitation dataset will prepare the AI for a wider range of in-game dynamics.
+- **Continuous Learning and Adaptation**: Implementing mechanisms for continuous learning, where the model can learn and adapt from new gameplay data generated by actual players, could help the AI evolve with the game, maintaining its effectiveness as the game mechanics and player strategies develop over time.
+
+
+By addressing these areas, the project can leverage the full potential of imitation learning, ensuring that the AI remains effective and responsive as the gaming environment evolves.
 
 ## Results
 
@@ -124,10 +145,24 @@ Unity ML agents represent a powerful tool in the arsenal of game developers aimi
 The system was tested with various forces:
 - **Random vs. One Directional Forces**: The model performed better with dynamically changing forces, which helped in negating some of the external variables.
 
-## Future Work
-- **Model Consistency**: Enhancing the car model for more dynamic training scenarios.
-- **Information and Sensory Inputs**: Adding more sensors and improving ray-casting techniques.
-- **Behavior Cloning**: Integrating traditional animation for better-controlled movements.
+## Future Improvements
+
+To build on the current achievements and address the existing challenges, several advancements are proposed for the next phases of the project. These enhancements are aimed at increasing the sophistication and effectiveness of the machine-learning models used in the gaming environment.
+
+### Implementation of Convolutional Neural Networks (CNNs)
+- **Using CNNs for Enhanced Perception**: Integrating Convolutional Neural Networks (CNNs) could significantly enhance the visual processing capabilities of the models. CNNs are particularly effective in interpreting complex visual inputs, making them ideal for tasks that require a deep understanding of intricate game environments. By processing visual data directly, CNNs can help improve the accuracy and responsiveness of AI agents, particularly in tasks involving navigation and object recognition.
+
+### Extended and Varied Training
+- **More Comprehensive Training Regimes**: Extending the training periods and diversifying the training environments can help the models develop a more robust understanding of the game dynamics. This includes exposing the AI to a wider range of scenarios and challenges, which can better prepare them for unexpected situations during gameplay.
+- **Adaptive Training Methods**: Implementing adaptive training methods that adjust the difficulty and complexity of training scenarios based on the model’s performance could foster more efficient learning. This approach ensures that the AI is always challenged but not overwhelmed, optimizing the learning curve.
+
+### Enhanced Data Collection and Analysis
+- **Improved Data Collection**: Enhancing the methods of data collection, particularly by capturing a broader spectrum of in-game interactions and outcomes, can provide richer datasets for training. This data can be used to fine-tune the models and correct specific deficiencies in the AI’s behaviour.
+- **Advanced Analytical Tools**: Employing more advanced analytical tools to evaluate the effectiveness of the training sessions and the in-game performance of the AI can provide deeper insights into how the models can be improved.
+
+### Real-time Learning and Adaptation
+- **Online Learning Capabilities**: Developing real-time or online learning capabilities where the AI can adjust and learn from each interaction within the game could lead to highly adaptive and intelligent systems. This continuous learning approach would allow the AI to refine its strategies based on new information, maintaining its effectiveness as the game evolves.
+
 
 ## Acknowledgements
-Special thanks to Prof. Adam Mally and Prof. Talid Sinno for their guidance and support throughout the project.
+Special thanks to Prof. Adam Mally for continuous guidance, and my friend Utkarsh for his help with learning Unity, and setting up the environment. 
