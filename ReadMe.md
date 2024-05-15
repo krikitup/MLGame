@@ -150,6 +150,20 @@ By addressing these areas, the project can leverage the full potential of imitat
 The system was tested with various forces:
 - **Random vs. One Directional Forces**: The model performed better with dynamically changing forces, which helped in negating some of the external variables.
 
+<div align="center">
+  <div style="display: inline-block; margin: 5px;">
+    <img src="https://github.com/krikitup/MLGame/assets/52323943/e96606a0-7d89-414d-befb-24c4f3c8868b" width="45%" />
+    <p>Dynamically Direction changing force </p>
+  </div>
+  <div style="display: inline-block; margin: 5px;">
+    <img src="https://github.com/krikitup/MLGame/assets/52323943/9dff6324-212c-4533-a17f-30205989f2bd" width="45%" />
+    <p>One directional Force</p>
+  </div>
+</div>
+
+
+
+
 | Type    | Magnitude | Speed Reward | Direction Reward | Failure     |
 |---------|-----------|--------------|------------------|-------------|
 | Null    | 0         | 0.4135122    | 0.8953937        | very little |
