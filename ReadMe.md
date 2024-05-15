@@ -190,6 +190,27 @@ The system was tested with various forces:
 | Random  | 100       | 0.1408803    | 0.7955912        | significant |
 
 ### Car
+<div align='center'>
+<img src="https://github.com/krikitup/MLGame/assets/52323943/f04687d6-6a20-4eab-9518-992d35551a99" />
+</div>
+
+<div align='center'>
+<img src="https://github.com/krikitup/MLGame/assets/52323943/b7a28015-79be-4d8a-a5b3-81387a1a5730" width="80%" />
+  <p>Loss Curve</p>
+</div>
+
+<div align="center">
+  <div style="display: inline-block; margin: 5px;">
+    <img src="https://github.com/krikitup/MLGame/assets/52323943/5aab5ccc-c9e4-4fdb-827c-b003608c0bb5" width="70%" />
+    <p>Dynamically Direction changing force </p>
+  </div>
+  <div style="display: inline-block; margin: 5px;">
+    <img src="https://github.com/krikitup/MLGame/assets/52323943/71a105f2-4936-43cb-99ba-3b408f03b96d" width="70%" />
+    
+  </div>
+  <div> <p>Reward Training Curve</p> </div>
+</div>
+
 
 
 #### Cumulative Reward Analysis
