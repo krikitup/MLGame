@@ -174,20 +174,83 @@ The system was tested with various forces:
   </div>
 </div>
 
+<div align="center">
 
+<table>
+  <tr>
+    <th>Type</th>
+    <th>Magnitude</th>
+    <th>Speed Reward</th>
+    <th>Direction Reward</th>
+    <th>Failure</th>
+  </tr>
+  <tr>
+    <td>Null</td>
+    <td>0</td>
+    <td>0.4135122</td>
+    <td>0.8953937</td>
+    <td>very little</td>
+  </tr>
+  <tr>
+    <td>Uni</td>
+    <td>0.1</td>
+    <td>0.3193891</td>
+    <td>0.9009511</td>
+    <td>very little</td>
+  </tr>
+  <tr>
+    <td>Uni</td>
+    <td>1</td>
+    <td>0.3627325</td>
+    <td>0.8934507</td>
+    <td>very little</td>
+  </tr>
+  <tr>
+    <td>Uni</td>
+    <td>10</td>
+    <td>0.08228441</td>
+    <td>0.8251086</td>
+    <td>significant</td>
+  </tr>
+  <tr>
+    <td>Uni</td>
+    <td>100</td>
+    <td>2.14E-05</td>
+    <td>0.5869689</td>
+    <td>failure</td>
+  </tr>
+  <tr>
+    <td>Random</td>
+    <td>0.1</td>
+    <td>0.4199955</td>
+    <td>0.9050978</td>
+    <td>very little</td>
+  </tr>
+  <tr>
+    <td>Random</td>
+    <td>1</td>
+    <td>0.432611</td>
+    <td>0.9033613</td>
+    <td>very little</td>
+  </tr>
+  <tr>
+    <td>Random</td>
+    <td>10</td>
+    <td>0.3575214</td>
+    <td>0.8982531</td>
+    <td>very little</td>
+  </tr>
+  <tr>
+    <td>Random</td>
+    <td>100</td>
+    <td>0.1408803</td>
+    <td>0.7955912</td>
+    <td>significant</td>
+  </tr>
+</table>
 
+</div>
 
-| Type    | Magnitude | Speed Reward | Direction Reward | Failure     |
-|---------|-----------|--------------|------------------|-------------|
-| Null    | 0         | 0.4135122    | 0.8953937        | very little |
-| Uni     | 0.1       | 0.3193891    | 0.9009511        | very little |
-| Uni     | 1         | 0.3627325    | 0.8934507        | very little |
-| Uni     | 10        | 0.08228441   | 0.8251086        | significant |
-| Uni     | 100       | 2.14E-05     | 0.5869689        | failure     |
-| Random  | 0.1       | 0.4199955    | 0.9050978        | very little |
-| Random  | 1         | 0.432611     | 0.9033613        | very little |
-| Random  | 10        | 0.3575214    | 0.8982531        | very little |
-| Random  | 100       | 0.1408803    | 0.7955912        | significant |
 
 ### Car
 <div align='center'>
