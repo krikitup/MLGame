@@ -162,11 +162,11 @@ The system was tested with various forces:
 
 <div align="center">
   <div style="display: inline-block; margin: 5px;">
-    <img src="https://github.com/krikitup/MLGame/assets/52323943/e96606a0-7d89-414d-befb-24c4f3c8868b" width="45%" />
+    <img src="https://github.com/krikitup/MLGame/assets/52323943/e96606a0-7d89-414d-befb-24c4f3c8868b" width="40%" />
     <p>Dynamically Direction changing force </p>
   </div>
   <div style="display: inline-block; margin: 5px;">
-    <img src="https://github.com/krikitup/MLGame/assets/52323943/9dff6324-212c-4533-a17f-30205989f2bd" width="45%" />
+    <img src="https://github.com/krikitup/MLGame/assets/52323943/9dff6324-212c-4533-a17f-30205989f2bd" width="40%" />
     <p>One directional Force</p>
   </div>
 </div>
