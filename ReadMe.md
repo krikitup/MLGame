@@ -81,6 +81,7 @@ Unity ML agents represent a powerful tool in the arsenal of game developers aimi
 
 <div align='center'>
 <img src="https://github.com/krikitup/MLGame/assets/52323943/ec360a7d-a22a-4539-9c61-68f28a95a914" width="80%" />
+  <p>Video showing U-turn with raycast.</p>
 </div>
 
 
