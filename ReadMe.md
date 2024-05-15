@@ -310,4 +310,5 @@ To build on the current achievements and address the existing challenges, severa
 
 
 ## Acknowledgements
-Special thanks to Prof. Adam Mally for continuous guidance, and my friend Utkarsh for his help with learning Unity, and setting up the environment. 
+I would like to acknowledge Prof. Talid Sinno who is my Faculty Advisor and Department Chair for Scientific Computing which allowed me to take up courses of my interest and do this Independent study. I would also like to thank my friend Utkarsh who helped me with learning Unity, setting up the Unity environment, and having discussions about various elements of the project. And most of all, I would like to thank Prof. Adam Mally, who was the advisor for my Independent study and has always been encouraging and supporting, a great teacher and a guide. 
+
