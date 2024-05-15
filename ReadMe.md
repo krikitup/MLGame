@@ -191,6 +191,21 @@ The system was tested with various forces:
 
 ### Car
 
+
+#### Cumulative Reward Analysis
+- **`imitation.u-turnCarDriver` (Pink)**: This model incorporates car data observing reverse movements, significantly enhancing its ability to learn to stop and speed reduction appropriately. The pink line in the graph shows moments of high performance, indicating effective learning of complex maneuvers.
+- **`final.testCarDriver` (Blue)**: Utilizing 4 raycasts, this model gathers more environmental data, allowing it to reach high-performance outcomes more quickly compared to models with fewer sensors. The extensive data input helps the system to make more informed decisions faster, leading to a steeper initial increase in cumulative rewards.
+- **Long-Term Performance**:
+  - `imitation.stay.reseatCarDriver` (Orange) and `imitation.reverseCarDriver` (Purple) demonstrate stable and sustained reward levels over an extended period, suggesting robustness and reliability in their learning algorithms.
+
+#### Pretraining Loss Analysis
+- **`imitation.stay.reseatCarDriver` (Orange)**: Introduction of a reset mechanism after collisions results in this model starting with a lower pretraining loss. This adjustment improves learning efficiency by quickly correcting behaviours that lead to collisions.
+- **`new.eastCarDriver` (Yellow)**: This model, equipped with 3 ray casts, shows better performance than previous models with fewer sensors. The yellow line indicates a lower steady-state loss, demonstrating faster adaptation and learning.
+- **`final.testCarDriver` (Blue)**: Continues to show the lowest loss, utilizing its 4 ray casts to efficiently process comprehensive environmental data.
+
+#### Conclusion
+While the `final.testCarDriver` shows exceptional data processing capabilities due to its multiple ray casts, the `new.eastCarDriver` and models incorporating resets after collisions like `imitation.stay.reseatCarDriver` exhibit significant improvements in learning dynamics. These features enhance both the speed of learning and the stability of performance over time.
+
 ## Future Improvements
 
 To build on the current achievements and address the existing challenges, several advancements are proposed for the next phases of the project. These enhancements are aimed at increasing the sophistication and effectiveness of the machine-learning models used in the gaming environment.
