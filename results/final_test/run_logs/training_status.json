@@ -1,0 +1,56 @@
+{
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0.dev0",
+        "torch_version": "2.2.0+cu121"
+    },
+    "CarDriver": {
+        "checkpoints": [
+            {
+                "steps": 0,
+                "file_path": "results\\final_test\\CarDriver\\CarDriver-0.onnx",
+                "reward": null,
+                "creation_time": 1715190433.5726368,
+                "auxillary_file_paths": [
+                    "results\\final_test\\CarDriver\\CarDriver-0.pt"
+                ]
+            },
+            {
+                "steps": 240256,
+                "file_path": "results\\final_test\\CarDriver\\CarDriver-240256.onnx",
+                "reward": 70.22248858213425,
+                "creation_time": 1715193003.7774003,
+                "auxillary_file_paths": [
+                    "results\\final_test\\CarDriver\\CarDriver-240256.pt"
+                ]
+            },
+            {
+                "steps": 499968,
+                "file_path": "results\\final_test\\CarDriver\\CarDriver-499968.onnx",
+                "reward": null,
+                "creation_time": 1715195400.6230052,
+                "auxillary_file_paths": [
+                    "results\\final_test\\CarDriver\\CarDriver-499968.pt"
+                ]
+            },
+            {
+                "steps": 897599,
+                "file_path": "results\\final_test\\CarDriver\\CarDriver-897599.onnx",
+                "reward": null,
+                "creation_time": 1715199509.2019982,
+                "auxillary_file_paths": [
+                    "results\\final_test\\CarDriver\\CarDriver-897599.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 897599,
+            "file_path": "results\\final_test\\CarDriver.onnx",
+            "reward": null,
+            "creation_time": 1715199509.2019982,
+            "auxillary_file_paths": [
+                "results\\final_test\\CarDriver\\CarDriver-897599.pt"
+            ]
+        }
+    }
+}

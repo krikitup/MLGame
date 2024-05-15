@@ -1,0 +1,56 @@
+{
+    "CarDriver": {
+        "checkpoints": [
+            {
+                "steps": 58944,
+                "file_path": "results\\new_cast4\\CarDriver\\CarDriver-58944.onnx",
+                "reward": null,
+                "creation_time": 1715223957.8187122,
+                "auxillary_file_paths": [
+                    "results\\new_cast4\\CarDriver\\CarDriver-58944.pt"
+                ]
+            },
+            {
+                "steps": 499968,
+                "file_path": "results\\new_cast4\\CarDriver\\CarDriver-499968.onnx",
+                "reward": null,
+                "creation_time": 1715229364.590299,
+                "auxillary_file_paths": [
+                    "results\\new_cast4\\CarDriver\\CarDriver-499968.pt"
+                ]
+            },
+            {
+                "steps": 999936,
+                "file_path": "results\\new_cast4\\CarDriver\\CarDriver-999936.onnx",
+                "reward": null,
+                "creation_time": 1715235213.7659748,
+                "auxillary_file_paths": [
+                    "results\\new_cast4\\CarDriver\\CarDriver-999936.pt"
+                ]
+            },
+            {
+                "steps": 1000064,
+                "file_path": "results\\new_cast4\\CarDriver\\CarDriver-1000064.onnx",
+                "reward": null,
+                "creation_time": 1715235213.8582091,
+                "auxillary_file_paths": [
+                    "results\\new_cast4\\CarDriver\\CarDriver-1000064.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1000064,
+            "file_path": "results\\new_cast4\\CarDriver.onnx",
+            "reward": null,
+            "creation_time": 1715235213.8582091,
+            "auxillary_file_paths": [
+                "results\\new_cast4\\CarDriver\\CarDriver-1000064.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0.dev0",
+        "torch_version": "2.2.0+cu121"
+    }
+}

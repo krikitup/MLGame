@@ -1,0 +1,65 @@
+{
+    "PushBlock": {
+        "checkpoints": [
+            {
+                "steps": 499989,
+                "file_path": "results\\test_again\\PushBlock\\PushBlock-499989.onnx",
+                "reward": null,
+                "creation_time": 1708479648.7814844,
+                "auxillary_file_paths": [
+                    "results\\test_again\\PushBlock\\PushBlock-499989.pt"
+                ]
+            },
+            {
+                "steps": 999945,
+                "file_path": "results\\test_again\\PushBlock\\PushBlock-999945.onnx",
+                "reward": null,
+                "creation_time": 1708480849.6650202,
+                "auxillary_file_paths": [
+                    "results\\test_again\\PushBlock\\PushBlock-999945.pt"
+                ]
+            },
+            {
+                "steps": 1499993,
+                "file_path": "results\\test_again\\PushBlock\\PushBlock-1499993.onnx",
+                "reward": 0.0,
+                "creation_time": 1708481575.517132,
+                "auxillary_file_paths": [
+                    "results\\test_again\\PushBlock\\PushBlock-1499993.pt"
+                ]
+            },
+            {
+                "steps": 1999978,
+                "file_path": "results\\test_again\\PushBlock\\PushBlock-1999978.onnx",
+                "reward": null,
+                "creation_time": 1708482278.468379,
+                "auxillary_file_paths": [
+                    "results\\test_again\\PushBlock\\PushBlock-1999978.pt"
+                ]
+            },
+            {
+                "steps": 2000106,
+                "file_path": "results\\test_again\\PushBlock\\PushBlock-2000106.onnx",
+                "reward": null,
+                "creation_time": 1708482278.581416,
+                "auxillary_file_paths": [
+                    "results\\test_again\\PushBlock\\PushBlock-2000106.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 2000106,
+            "file_path": "results\\test_again\\PushBlock.onnx",
+            "reward": null,
+            "creation_time": 1708482278.581416,
+            "auxillary_file_paths": [
+                "results\\test_again\\PushBlock\\PushBlock-2000106.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0.dev0",
+        "torch_version": "2.2.0+cu121"
+    }
+}

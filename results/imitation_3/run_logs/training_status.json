@@ -1,0 +1,56 @@
+{
+    "CarDriver": {
+        "checkpoints": [
+            {
+                "steps": 499991,
+                "file_path": "results\\imitation_3\\CarDriver\\CarDriver-499991.onnx",
+                "reward": null,
+                "creation_time": 1714757967.6215758,
+                "auxillary_file_paths": [
+                    "results\\imitation_3\\CarDriver\\CarDriver-499991.pt"
+                ]
+            },
+            {
+                "steps": 999991,
+                "file_path": "results\\imitation_3\\CarDriver\\CarDriver-999991.onnx",
+                "reward": null,
+                "creation_time": 1714762964.4642005,
+                "auxillary_file_paths": [
+                    "results\\imitation_3\\CarDriver\\CarDriver-999991.pt"
+                ]
+            },
+            {
+                "steps": 1240767,
+                "file_path": "results\\imitation_3\\CarDriver\\CarDriver-1240767.onnx",
+                "reward": 18.134098088816245,
+                "creation_time": 1714765845.870477,
+                "auxillary_file_paths": [
+                    "results\\imitation_3\\CarDriver\\CarDriver-1240767.pt"
+                ]
+            },
+            {
+                "steps": 1499991,
+                "file_path": "results\\imitation_3\\CarDriver\\CarDriver-1499991.onnx",
+                "reward": null,
+                "creation_time": 1714831643.084334,
+                "auxillary_file_paths": [
+                    "results\\imitation_3\\CarDriver\\CarDriver-1499991.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1240767,
+            "file_path": "results\\imitation_3\\CarDriver.onnx",
+            "reward": 18.134098088816245,
+            "creation_time": 1714765845.870477,
+            "auxillary_file_paths": [
+                "results\\imitation_3\\CarDriver\\CarDriver-1240767.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0.dev0",
+        "torch_version": "2.2.0+cu121"
+    }
+}

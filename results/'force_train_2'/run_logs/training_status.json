@@ -1,0 +1,65 @@
+{
+    "Walker": {
+        "checkpoints": [
+            {
+                "steps": 1499995,
+                "file_path": "results\\'force_train_2'\\Walker\\Walker-1499995.onnx",
+                "reward": -0.7231463678076822,
+                "creation_time": 1710628654.4252048,
+                "auxillary_file_paths": [
+                    "results\\'force_train_2'\\Walker\\Walker-1499995.pt"
+                ]
+            },
+            {
+                "steps": 1999990,
+                "file_path": "results\\'force_train_2'\\Walker\\Walker-1999990.onnx",
+                "reward": -0.7266796709385067,
+                "creation_time": 1710629869.771827,
+                "auxillary_file_paths": [
+                    "results\\'force_train_2'\\Walker\\Walker-1999990.pt"
+                ]
+            },
+            {
+                "steps": 2499997,
+                "file_path": "results\\'force_train_2'\\Walker\\Walker-2499997.onnx",
+                "reward": -0.739954178983515,
+                "creation_time": 1710631090.620474,
+                "auxillary_file_paths": [
+                    "results\\'force_train_2'\\Walker\\Walker-2499997.pt"
+                ]
+            },
+            {
+                "steps": 2999992,
+                "file_path": "results\\'force_train_2'\\Walker\\Walker-2999992.onnx",
+                "reward": -0.6948653154847335,
+                "creation_time": 1710632305.1388102,
+                "auxillary_file_paths": [
+                    "results\\'force_train_2'\\Walker\\Walker-2999992.pt"
+                ]
+            },
+            {
+                "steps": 3134541,
+                "file_path": "results\\'force_train_2'\\Walker\\Walker-3134541.onnx",
+                "reward": null,
+                "creation_time": 1710632632.392652,
+                "auxillary_file_paths": [
+                    "results\\'force_train_2'\\Walker\\Walker-3134541.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 3134541,
+            "file_path": "results\\'force_train_2'\\Walker.onnx",
+            "reward": null,
+            "creation_time": 1710632632.392652,
+            "auxillary_file_paths": [
+                "results\\'force_train_2'\\Walker\\Walker-3134541.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0.dev0",
+        "torch_version": "2.2.0+cu121"
+    }
+}

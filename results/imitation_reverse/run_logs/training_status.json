@@ -1,0 +1,65 @@
+{
+    "CarDriver": {
+        "checkpoints": [
+            {
+                "steps": 1499962,
+                "file_path": "results\\imitation_reverse\\CarDriver\\CarDriver-1499962.onnx",
+                "reward": -199.24231539317407,
+                "creation_time": 1715069255.862897,
+                "auxillary_file_paths": [
+                    "results\\imitation_reverse\\CarDriver\\CarDriver-1499962.pt"
+                ]
+            },
+            {
+                "steps": 1999930,
+                "file_path": "results\\imitation_reverse\\CarDriver\\CarDriver-1999930.onnx",
+                "reward": null,
+                "creation_time": 1715073792.8838563,
+                "auxillary_file_paths": [
+                    "results\\imitation_reverse\\CarDriver\\CarDriver-1999930.pt"
+                ]
+            },
+            {
+                "steps": 2499962,
+                "file_path": "results\\imitation_reverse\\CarDriver\\CarDriver-2499962.onnx",
+                "reward": null,
+                "creation_time": 1715078603.5963504,
+                "auxillary_file_paths": [
+                    "results\\imitation_reverse\\CarDriver\\CarDriver-2499962.pt"
+                ]
+            },
+            {
+                "steps": 2999930,
+                "file_path": "results\\imitation_reverse\\CarDriver\\CarDriver-2999930.onnx",
+                "reward": null,
+                "creation_time": 1715083243.7106187,
+                "auxillary_file_paths": [
+                    "results\\imitation_reverse\\CarDriver\\CarDriver-2999930.pt"
+                ]
+            },
+            {
+                "steps": 3000058,
+                "file_path": "results\\imitation_reverse\\CarDriver\\CarDriver-3000058.onnx",
+                "reward": null,
+                "creation_time": 1715083243.8034005,
+                "auxillary_file_paths": [
+                    "results\\imitation_reverse\\CarDriver\\CarDriver-3000058.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 3000058,
+            "file_path": "results\\imitation_reverse\\CarDriver.onnx",
+            "reward": null,
+            "creation_time": 1715083243.8034005,
+            "auxillary_file_paths": [
+                "results\\imitation_reverse\\CarDriver\\CarDriver-3000058.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0.dev0",
+        "torch_version": "2.2.0+cu121"
+    }
+}

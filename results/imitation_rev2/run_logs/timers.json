@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1715096833",
+        "python_version": "3.10.12 | packaged by Anaconda, Inc. | (main, Jul  5 2023, 19:01:18) [MSC v.1916 64 bit (AMD64)]",
+        "command_line_arguments": "\\\\?\\C:\\Users\\rajni\\anaconda3\\envs\\mlagents\\Scripts\\mlagents-learn config/ppo/carimation.yaml --initialize-from=imitation_reverse --run-id=imitation_rev2 --resume",
+        "mlagents_version": "1.1.0.dev0",
+        "mlagents_envs_version": "1.1.0.dev0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "2.2.0+cu121",
+        "numpy_version": "1.23.5",
+        "end_time_seconds": "1715096846"
+    },
+    "total": 12.907329099951312,
+    "count": 1,
+    "self": 0.011493599973618984,
+    "children": {
+        "run_training.setup": {
+            "total": 0.17453359998762608,
+            "count": 1,
+            "self": 0.17453359998762608
+        },
+        "TrainerController.start_learning": {
+            "total": 12.721301899990067,
+            "count": 1,
+            "self": 0.00021060009021311998,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 12.721068399958313,
+                    "count": 1,
+                    "self": 12.721068399958313
+                },
+                "TrainerController._save_models": {
+                    "total": 2.289994154125452e-05,
+                    "count": 1,
+                    "self": 2.289994154125452e-05
+                }
+            }
+        }
+    }
+}
