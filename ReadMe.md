@@ -57,6 +57,12 @@ Unity ML agents represent a powerful tool in the arsenal of game developers aimi
 - **Humanoid Movement Learning**: Focus on developing and training AI models to handle humanoid movement using Unity ML-Agents.
 - **Implementing Inverse Kinematics**: Attempt to implement inverse kinematics to improve the realism and accuracy of joint movements in humanoid figures.
 - **Adapting to Forces**: Train the model to enable the agent to walk against both random and uni-directional forces, enhancing stability and adaptability in variable conditions.
+  
+
+<div align='center'>
+<img src="https://github.com/krikitup/MLGame/assets/52323943/f38ed772-54fd-4856-b9de-ca2abb4ff575" width="80%" />
+  <p>Inverse Kynametics.</p>
+</div>
 
 ## Weeks 7-8: Car Mechanics and Scene Setup
 - **Implementing Car Mechanics**: Utilize the [Arcade Free Racing Car asset](https://assetstore.unity.com/packages/3d/vehicles/land/arcade-free-racing-car-161085) from the Unity Asset Store to design and implement car mechanics, following guidance from [this YouTube tutorial](https://www.youtube.com/watch?v=Z4HA8zJhGEk&t=578s) on car control implementation.
@@ -65,7 +71,13 @@ Unity ML agents represent a powerful tool in the arsenal of game developers aimi
 
 ## Weeks 9-12: Training, Evaluation, Refinement, and Advanced Implementation
 
-- **Advanced Raycast Implementation**: Enhance the raycasting system by incrementally increasing the complexity—from one raycast to two and eventually to four. This upgrade aims to improve the agent's ability to gather more detailed information from the environment, thus enhancing decision-making capabilities.
+- **Advanced Raycast Implementation**: Enhance the raycasting system by incrementally increasing the complexity—from one ray cast to two and eventually to four. This upgrade aims to improve the agent's ability to gather more detailed information from the environment, thus enhancing decision-making capabilities.
+
+
+<div align='center'>
+<img src="https://github.com/krikitup/MLGame/assets/52323943/2f4e6d50-ab1b-4ada-9a8d-a1b145a49640" width="80%" />
+  <p>Car Agent not able to obtain enough information of Track from 3 raycast</p>
+</div>
 
 - **Modifying the Checkpoint System**: Revise the checkpoint system to allow better data gathering and interaction with the environment. This modification will enable more precise navigation cues for the car agents, improving their ability to handle diverse track configurations.
 
@@ -149,24 +161,15 @@ By addressing these areas, the project can leverage the full potential of imitat
 ### Humanoid
 The system was tested with various forces:
 - **Random vs. One Directional Forces**: The model performed better with dynamically changing forces, which helped in negating some of the external variables.
-<table>
-  <tr>
-    <td><img src="https://github.com/krikitup/MLGame/assets/52323943/e96606a0-7d89-414d-befb-24c4f3c8868b" width="44%"></td>
-    <td><img src="https://github.com/krikitup/MLGame/assets/52323943/9dff6324-212c-4533-a17f-30205989f2bd" width="44%"></td>
-  </tr>
-  <tr>
-    <td align="center">Dynamically Direction changing force</td>
-    <td align="center">One directional Force</td>
-  </tr>
-</table>
+
 
 <div align="center">
   <div style="display: inline-block; margin: 5px;">
-    <img src="https://github.com/krikitup/MLGame/assets/52323943/e96606a0-7d89-414d-befb-24c4f3c8868b" width="40%" />
+    <img src="https://github.com/krikitup/MLGame/assets/52323943/e96606a0-7d89-414d-befb-24c4f3c8868b" width="70%" />
     <p>Dynamically Direction changing force </p>
   </div>
   <div style="display: inline-block; margin: 5px;">
-    <img src="https://github.com/krikitup/MLGame/assets/52323943/9dff6324-212c-4533-a17f-30205989f2bd" width="40%" />
+    <img src="https://github.com/krikitup/MLGame/assets/52323943/9dff6324-212c-4533-a17f-30205989f2bd" width="70%" />
     <p>One directional Force</p>
   </div>
 </div>
