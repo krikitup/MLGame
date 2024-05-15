@@ -149,6 +149,16 @@ By addressing these areas, the project can leverage the full potential of imitat
 ### Humanoid
 The system was tested with various forces:
 - **Random vs. One Directional Forces**: The model performed better with dynamically changing forces, which helped in negating some of the external variables.
+<table>
+  <tr>
+    <td><img src="https://github.com/krikitup/MLGame/assets/52323943/e96606a0-7d89-414d-befb-24c4f3c8868b" width="44%"></td>
+    <td><img src="https://github.com/krikitup/MLGame/assets/52323943/9dff6324-212c-4533-a17f-30205989f2bd" width="44%"></td>
+  </tr>
+  <tr>
+    <td align="center">Dynamically Direction changing force</td>
+    <td align="center">One directional Force</td>
+  </tr>
+</table>
 
 <div align="center">
   <div style="display: inline-block; margin: 5px;">
