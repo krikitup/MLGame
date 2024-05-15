@@ -79,8 +79,9 @@ Unity ML agents represent a powerful tool in the arsenal of game developers aimi
 
 - **Project Documentation and Final Presentation**: Prepare comprehensive documentation of the project outcomes, including detailed descriptions of all systems and technologies implemented, challenges faced, successes achieved, and areas for future research. Prepare and deliver a final presentation to stakeholders to showcase the project results, emphasizing the advancements made in AI training techniques and their practical applications in game environments.
 
-![final_drive gif](https://github.com/krikitup/MLGame/assets/52323943/ec360a7d-a22a-4539-9c61-68f28a95a914)
+<div align='center'>
 <img src="https://github.com/krikitup/MLGame/assets/52323943/ec360a7d-a22a-4539-9c61-68f28a95a914" width="80%" />
+</div>
 
 
 ## Achievements and Failures
